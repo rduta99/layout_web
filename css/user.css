@@ -1,0 +1,200 @@
+html,
+body {
+	background-color: #efefef;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+nav#navbar,
+nav#navbar-mobile {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding-left: 35px;
+	padding-right: 35px;
+	z-index: 999;
+	background-color: #fefefe;
+}
+
+.uk-navbar-nav>li>a {
+	color: #2f8be1;
+	font-weight: bold;
+}
+
+.uk-logo {
+	color: #2f8be1 !important;
+	font-weight: bold;
+}
+
+.second {
+	color: #d4dee6 !important;
+	margin-right: 10px;
+}
+
+.uk-navbar-nav>li>a>span {
+	/* background-color: #2f8be1; */
+	color: #2f8be1 !important;
+	padding: 7px 10px;
+}
+
+.uk-navbar-nav>li>a>span::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #2f8be1;
+	transition: width .3s;
+}
+
+.uk-navbar-nav>li>a>span:hover::after {
+	width: 100%;
+}
+
+.uk-navbar-nav>li.uk-active>a>span {
+	/* background-color: #2f8be1; */
+	color: #2f8be1 !important;
+	padding: 7px 10px;
+}
+
+.uk-navbar-nav>li.uk-active>a>span::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #2f8be1;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0;
+	/* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+	/* Firefox */
+}
+
+#header-section {
+	background-color: #245681;
+}
+
+.uk-tab-left>li>a {
+	font-weight: bold;
+	color: #409df4;
+}
+
+.uk-tab-left>li.uk-active>a {
+	color: #2f8be1;
+}
+
+#footer {
+	background-color: white !important;
+}
+
+.footer-header {
+	color: #245681;
+}
+
+#copyright {
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+#copy-container {
+	padding-top: 20px;
+}
+
+.footer-link>a {
+	font-weight: 500;
+}
+
+.footer-link:hover {
+	color: #2f8be1 !important;
+}
+
+.uk-tab>.uk-active>a {
+	border-width: 3px;
+}
+
+.card .card-container {
+	background: white;
+	border-radius: 1rem;
+	position: relative;
+}
+
+.card::before {
+	position: absolute;
+	top: 2rem;
+	right: -0.5rem;
+	content: '';
+	background: #245681;
+	height: 28px;
+	width: 28px;
+	transform: rotate(45deg);
+}
+
+.card::after {
+	position: absolute;
+	content: attr(data-label);
+	top: 11px;
+	right: -14px;
+	padding: 0.5rem;
+	width: 10rem;
+	background: #2f8be1;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+
+label.radio-custom {
+	display: block;
+	padding: 5px;
+	position: relative;
+	padding-left: 40px;
+}
+
+label.radio-custom input {
+	display: none;
+}
+
+label.radio-custom span {
+	border: 2.5px solid #ccc;
+	color: #ccc;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	overflow: hidden;
+	line-height: 1;
+	text-align: center;
+	border-radius: 100%;
+	font-size: 15pt;
+	left: 0;
+	top: 50%;
+	margin-top: -12.5px;
+}
+
+.uk-slidenav {
+	color: white !important;
+}
+
+label.radio-custom>input:checked+span {
+	background: #2f8be1;
+	border-color: #2f8be1;
+	color: #fefefe;
+}
+
+@media only screen and (min-width: 1200px) {
+	#header-section {
+		margin-top: 0 !important;
+	}
+}
