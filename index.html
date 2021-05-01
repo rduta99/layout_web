@@ -3,283 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/Pride logos/Pride logo/Copy of Pride_Logo_transparent-white.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/uikit.min.css">
     <link rel="stylesheet" href="./css/custom.css">
     <title>Your Website Name</title>
 </head>
 <body>
-    <!-- <nav class="uk-navbar uk-navbar-container uk-margin" uk-navbar="mode: hover">
-        <a class="uk-navbar-item uk-logo" href="#">Your Logo Here</a>
+
+    <nav class="uk-navbar uk-navbar-container uk-position-top uk-position-absolute" uk-navbar>
+        <a href="" class="uk-navbar-item uk-logo">
+            <img src="./img/Pride logos/Pride logo/Copy of Pride_Logo_linear-white.png" width="100" alt="IWC" loading="lazy">
+        </a>
 
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">Active</a></li>
+
+            <ul class="uk-navbar-nav uk-visible@m">
                 <li>
-                    <a href="#">Parent</a>
+                    <a href="./blog.html">BLOG</a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href="#">Active</a></li>
-                            <li><a href="#">Item</a></li>
-                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Interviews</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Item</a></li>
+                
+                <li>
+                    <a href="#">COURSES</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Intelligent Investors Immersive Early Retirement Masterclass</a></li>
+                            <li><a href="#">SaaS Hypergrowth Investing</a></li>
+                            <li><a href="#">China Stocks and Options Course</a></li>
+                            <li><a href="#">8-Figure Trading Blueprint</a></li>
+                            <li><a href="#">Cryptocurrency</a></li>
+                            <li><a href="#">Property Investing Masterclass</a></li>
+                            <li><a href="#">Barbell Investing Course</a></li>
+                            <li><a href="#">All Courses</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#">ABOUT</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Ask IWC Facebook</a></li>
+                            <li><a href="#">Interviews</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-        </div>
-    </nav> -->
 
-    <div class="uk-position-relative">
+            <a href="#offcanvas-usage" class="uk-hidden@m navbar-mobile" uk-toggle>
+                <i uk-icon="icon: menu; ratio: 1.5"></i>
+            </a>
 
-        <nav class="uk-navbar uk-navbar-container uk-box-shadow-small" uk-navbar="dropbar: true">
-            <a href="" class="uk-navbar-item uk-logo">Your Logo Here</a>
-    
-            <div class="uk-navbar-center">
-    
-                <ul class="uk-navbar-nav">
-                    <li>
-                        <a href="#">BLOG</a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-active"><a href="#">Blog</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li class="uk-nav-header">Header</li>
-                                <li><a href="#">Item</a></li>
-                                <li><a href="#">Item</a></li>
-                                <li class="uk-nav-divider"></li>
-                                <li><a href="#">Item</a></li>
+            <div id="offcanvas-usage" uk-offcanvas="overlay: true; flip: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <img class="uk-padding" src="./img/Pride logos/Pride logo/Copy of Pride_Logo_transparent-white.png" alt="">
+                    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                        <li class="uk-nav-header">Main Menu</li>
+                        <li class="uk-parent">
+                            <a href="#">Blog</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Interviews</a></li>
                             </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">COURSES</a>
-                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="#">Courses</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">Intelligent Investors Immersive Early Retirement Masterclass</a></li>
+                                <li><a href="#">SaaS Hypergrowth Investing</a></li>
+                                <li><a href="#">China Stocks and Options Course</a></li>
+                                <li><a href="#">8-Figure Trading Blueprint</a></li>
+                                <li><a href="#">Cryptocurrency</a></li>
+                                <li><a href="#">Property Investing Masterclass</a></li>
+                                <li><a href="#">Barbell Investing Course</a></li>
+                                <li><a href="#">All Courses</a></li>
+                            </ul>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="#">About</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Ask IWC Facebook</a></li>
+                                <li><a href="#">Interviews</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                    <li>
-                        <a href="#">APP</a>
-                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#">ABOUT</a>
-                        <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                            <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-    
+                </div>
             </div>
-    
-            <div class="uk-navbar-right">
-    
-                <ul class="uk-navbar-nav">
-                    <li>
-                        <a href="#">Parent</a>
-                    </li>
-                </ul>
-    
-            </div>
-        </nav>
-    
-        <div class="uk-navbar-dropbar"></div>
-    </div>
+        </div>
+    </nav>
 
     <div class="heading-1">
-        <div class="uk-container uk-text-center">
-            <div uk-grid>
-                <div class="uk-width-1-4@m"></div>
+        <div class="uk-padding-large uk-text-center">
+            <div class="header-container">
                 <div class="uk-width-expand@m uk-margin-top">
-                    <h1 class="uk-text-bold heading-title">
+                    <h1 class="uk-text-bold heading-title nunito-font">
                         Learn from those who put their money where their mouth is.
                     </h1>
-                    <p class="uk-text-white header-text uk-text-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae ipsum, accusamus explicabo beatae, cumque vitae quas, eos dolorem itaque repellendus nostrum reprehenderit libero deleniti modi commodi ex praesentium? Suscipit.</p>
+                    <p class="uk-text-white header-text uk-text-large nunito-font">We teach investment courses because we believe every retail investor has the right to success. To hope. To dream. You might prefer opening a business or building a career. And that's fine. But if you want to put your money to work in the stock markets, this is for you. </p>
 
                     <div class="uk-text-center">
-                        <a class="uk-button uk-width-1-2 uk-button-primary uk-border-pill">Courses</a>
+                        <a class="uk-button uk-width-1-2@m uk-width-expand uk-button-primary">Courses</a>
                     </div>
                 </div>
-                <div class="uk-width-1-4@m"></div>
             </div>
         </div>
     </div>
 
     <div class="uk-card uk-card-default uk-box-shadow-small">
-        <div class="uk-card-body"></div>
-    </div>
-
-    <div class="uk-margin-bottom uk-margin-large-top uk-container">
-        <h1 class="uk-text-center uk-text-bold">Explore Our Courses</h1>
-
-        <div class="uk-slider-container-offset uk-margin-top" uk-slider>
-
-            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-        
-                <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="uk-card uk-card-default">
-                            <a class="uk-inline">
-                                <img src="./img/bg-new.jpg" alt="">
-                                <div class="uk-overlay-primary uk-position-cover"></div>
-                                <div class="uk-overlay uk-position-bottom uk-light">
-                                    <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-        
-                <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
-        
+        <div class="uk-container">
+            <div class="uk-card-body">
+                <div uk-grid>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <span class="uk-text-bold uk-text-uppercase">Featured In :</span>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <i uk-icon="icon: google; ratio: 2"></i>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <i uk-icon="icon: linkedin; ratio: 2"></i>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <i uk-icon="icon: uikit; ratio: 2"></i>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <i uk-icon="icon: youtube; ratio: 2"></i>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-3">
+                        <i uk-icon="icon: github; ratio: 2"></i>
+                    </div>
+                </div>
             </div>
-        
-            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-        
         </div>
     </div>
 
-    <div class="heading-3">
+    <!-- Explore Course Start -->
+    <div class="uk-margin-large-bottom uk-margin-large-top custom-container">
+        <h1 class="uk-text-center uk-text-bold nunito-font explore uk-margin-large-bottom">Explore Our Courses</h1>
+
+        <div class="uk-grid-small uk-child-width-1-2@s uk-margin-bottom" uk-grid uk-scrollspy="target: h4; cls: uk-animation-slide-bottom-small; delay: 200; repeat: true">
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="" class="uk-inline uk-margin-bottom" style="border: 1px solid #a7a7a7a7;">
+                    <img src="./img/img.jpg" alt="" uk-img>
+                    <div class="uk-overlay uk-overlay-primary uk-light uk-position-bottom">
+                        <h4 class="nunito-font">
+                            <strong>Courses</strong> <br>
+                            Name
+                        </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <img src="./img/sale-banner-template-design_74379-121.jpg" class="uk-width-expand" alt="Temporary Image" uk-img>
+    </div>
+    <!-- Explore Course End -->
+
+    <div class="heading-3 uk-margin-large-bottom">
         <div class="uk-container uk-padding uk-padding-remove-horizontal">
-            <h1 class="uk-text-center uk-light uk-text-bold">
+            <h2 class="uk-text-center uk-light uk-text-bold nunito-font">
                 "You continue to give and give. I'm impressed by your drive to educate and help others" - Marcus
-            </h1>
+            </h2>
             <br>
-            <div class="uk-grid-match uk-child-width-1-4@l uk-child-width-1-2@s uk-child-width-expand" uk-grid>
+            <div class="uk-grid-match uk-child-width-1-4@l uk-child-width-1-2@s uk-child-width-expand uk-visible@m" uk-grid>
                 <div>
                     <div class="uk-card">
                         <div class="uk-card-body">
@@ -320,8 +276,96 @@
         </div>
     </div>
 
-    <div class="uk-margin-large uk-margin-remove-horizontal uk-container">
-        <h1 class="uk-text-center uk-text-bold">Latest Blog Post</h1>
+    <div class="custom-container uk-margin-large-bottom">
+        <h1 class="uk-text-center uk-text-bold nunito-font explore uk-margin-large-bottom">What Others Are Saying About Us</h1>
+
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-text-center quotes-item">
+                    <span uk-icon="icon: quote-right; ratio: 2"></span>
+                    <p class="uk-text-italic">
+                        A team passionate about spreading their knowledge in financial literacy which is critical for anyone, especially teenagers and young adults who are our future. I would recommend all to follow their FB regularly and attend course that they conduct. - Lim Guat Ling
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-text-center quotes-item">
+                    <span uk-icon="icon: quote-right; ratio: 2"></span>
+                    <p class="uk-text-italic">
+                        Concepts are clear and easy to understand. The trainers are also friendly and willing to share their experiences or to clear any doubts both in and out of the classroom. Highly recommended for anyone who want to start their investing journey or someone who wants to up their investment games - Jeremy Seah
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-text-center quotes-item">
+                    <span uk-icon="icon: quote-right; ratio: 2"></span>
+                    <p class="uk-text-italic">
+                        Would recommend to all investment beginners! Course is structured to be easily grasped and the trainers will walk you through each step patiently till you get it, with real life case studies. - Asyraf Hamir
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-text-center quotes-item">
+                    <span uk-icon="icon: quote-right; ratio: 2"></span>
+                    <p class="uk-text-italic">
+                        Dr wealth has unpegged the concept of value investing into a very simple and digestable concept that a even person with zero accounting / financial knowledge can also fully understand . Thank you Dr wealth - Jeanette Koh
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="another-section uk-margin-large-bottom custom-container uk-padding uk-padding-remove-horizontal uk-visible@m">
+        <h1 class="uk-text-center uk-text-bold nunito-font explore uk-margin-large-bottom">In-depth Investment Guides Written For You</h1>
+
+        <div class="uk-grid-match uk-child-width-1-4@m in-depth-invest" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body"></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    
+
+    <div class="uk-margin-large-bottom uk-margin-remove-horizontal uk-container">
+        <h1 class="uk-text-center uk-text-bold nunito-font explore uk-margin-bottom">Latest Blog Posts</h1>
         <div uk-grid>
             <div class="uk-width-1-3@m"></div>
 
@@ -336,13 +380,13 @@
 
             <div class="uk-width-1-3@m">
                 <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                    <a href="./read-blog.html" class="uk-card-media-top">
                         <img src="./img/bg-new.jpg" alt="">
-                    </div>
+                    </a>
                     <div class="uk-card-body">
-                        <h5 class="uk-card-title uk-text-bold" style="margin-bottom: 5px !important">
+                        <a href="./read-blog.html" class="uk-card-title uk-text-bold">
                             Your News Title
-                        </h5>
+                        </a>
                         <p class="uk-article-meta uk-margin-remove-top">Posted on 12 April 2012.</p>
                         <p class="uk-text-justify uk-text-truncate uk-margin-remove-top">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, id iure adipisci inventore iste amet pariatur corporis, voluptatum ipsum in est recusandae necessitatibus minima. Laboriosam pariatur quas voluptatum corrupti labore?
@@ -358,13 +402,13 @@
 
             <div class="uk-width-1-3@m">
                 <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                    <a href="./read-blog.html" class="uk-card-media-top">
                         <img src="./img/bg-new.jpg" alt="">
-                    </div>
+                    </a>
                     <div class="uk-card-body">
-                        <h5 class="uk-card-title uk-text-bold" style="margin-bottom: 5px !important">
+                        <a href="./read-blog.html" class="uk-card-title uk-text-bold">
                             Your News Title
-                        </h5>
+                        </a>
                         <p class="uk-article-meta uk-margin-remove-top">Posted on 12 April 2012.</p>
                         <p class="uk-text-justify uk-text-truncate uk-margin-remove-top">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, id iure adipisci inventore iste amet pariatur corporis, voluptatum ipsum in est recusandae necessitatibus minima. Laboriosam pariatur quas voluptatum corrupti labore?
@@ -380,13 +424,13 @@
 
             <div class="uk-width-1-3@m">
                 <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                    <a href="./read-blog.html" class="uk-card-media-top">
                         <img src="./img/bg-new.jpg" alt="">
-                    </div>
+                    </a>
                     <div class="uk-card-body">
-                        <h5 class="uk-card-title uk-text-bold" style="margin-bottom: 5px !important">
+                        <a href="./read-blog.html" class="uk-card-title uk-text-bold">
                             Your News Title
-                        </h5>
+                        </a>
                         <p class="uk-article-meta uk-margin-remove-top">Posted on 12 April 2012.</p>
                         <p class="uk-text-justify uk-text-truncate uk-margin-remove-top">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, id iure adipisci inventore iste amet pariatur corporis, voluptatum ipsum in est recusandae necessitatibus minima. Laboriosam pariatur quas voluptatum corrupti labore?
@@ -402,36 +446,64 @@
         </div>
 
         <div class="uk-text-center uk-margin-large-top">
-            <a class="uk-button uk-button-primary uk-border-pill uk-width-1-3 uk-box-shadow-large">Load More News</a>
+            <a href="./blog.html" class="uk-button uk-button-primary uk-width-1-3@m uk-box-shadow-large">Load More News</a>
         </div>
     </div>
 
     <div id="footer">
 		<div class="uk-container">
 			<div class="uk-margin-large-top uk-margin-large-bottom uk-text-center uk-text-left@m" uk-grid>
-				<div class="uk-width-1-2@m uk-visible@m" id="copy-container">
-					<img src="./img/logo3.png" width="100" alt="">
-					<span id="copyright">2021 &copy; SIAPCPNS. All Rights Reserved</span>
+				<div class="uk-width-1-4@m" id="copy-container">
+					<img src="./img/Pride logos/Pride logo/Copy of Pride_Logo_linear-white.png" width="150" alt="">
+                    <p>BigFatPurse Pte Ltd <br>
+                    175A Bencoolen Street #11-09 <br>
+                    Burlington Square <br>
+                    Singapore 189650 <br>
+                    Tel: 65-9812 0411 <br>
+                    Email: admin@drwealth.com</p>
+
+                    <h3 class="uk-text-bolder footer-header">Contact Us</h3>
 				</div>
 				<div class="uk-width-1-4@m">
-					<h3 class="uk-text-bolder footer-header">Home</h3>
+					<h3 class="uk-text-bolder footer-header">Course</h3>
 					<ul class="uk-list uk-link-text">
-						<li class="footer-link"><a href="">Kebijakan Layanan</a></li>
+                        <li class="footer-link"><a>Intelligent Investors Immersive Early Retirement Masterclass</a></li>
+                        <li class="footer-link"><a>SaaS Hypergrowth Investing</a></li>
+                        <li class="footer-link"><a>China Stocks and Options Course</a></li>
+                        <li class="footer-link"><a>8-Figure Trading Blueprint</a></li>
+                        <li class="footer-link"><a>Cryptocurrency</a></li>
+                        <li class="footer-link"><a>Property Investing Masterclass</a></li>
+                        <li class="footer-link"><a>Barbell Investing Course</a></li>
+                        <li class="footer-link"><a>All Courses</a></li>
 					</ul>
 				</div>
 				<div class="uk-width-1-4@m">
-					<h3 class="uk-text-bolder footer-header">Contacts</h3>
+					<h3 class="uk-text-bolder footer-header">Online Course</h3>
 					<ul class="uk-list uk-link-text">
-						<li class="footer-link"><a href=""><i uk-icon="mail"></i> admin@siapcpns.id</a></li>
-						<li class="footer-link"><a href=""><i uk-icon="instagram"></i> siapcpns.idn</a></li>
+						<li class="footer-link"><a href="">Personal Finance Master Class</a></li>
 					</ul>
 				</div>
+
+                <div class="uk-width-1-4@m">
+                    <h3 class="uk-text-bolder footer-header">Contents</h3>
+					<ul class="uk-list uk-link-text">
+                        <li xlass="footer-link"><a>Blog post</a></li>
+                        <li xlass="footer-link"><a>Case Studies</a></li>
+                        <li xlass="footer-link"><a>Videos</a></li>
+                        <li xlass="footer-link"><a>Interviews</a></li>
+					</ul>
+                </div>
 			</div>
+
+            <div class="uk-text-center uk-margin-large-bottom">
+                <span id="copyright">2021 &copy; IWC. All Rights Reserved</span>
+            </div>
+
 		</div>
-		<div class="uk-hidden@m uk-text-center uk-padding-small uk-padding-remove-horizontal">
+		<!-- <div class="uk-hidden@m uk-text-center uk-padding-small uk-padding-remove-horizontal">
 			<img src="./img/logo3.png" width="30" alt="">
 			<span id="copyright">2021 &copy; SIAPCPNS. All Rights Reserved</span>
-		</div>
+		</div> -->
 	</div>
     
     <script src="./js/jquery.min.js"></script>
