@@ -18,28 +18,36 @@
 
             <ul class="uk-navbar-nav uk-visible@m">
                 <li>
-                    <a href="#">BLOG</a>
+                    <a href="./blog.html">BLOG</a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Videos</a></li>
-                            <li><a href="#">Interviews</a></li>
+                            <li><a href="./case-studies.html">Case Studies</a></li>
+                            <li><a href="./videos.html">Videos</a></li>
+                            <li><a href="./interviews.html">Interviews</a></li>
                         </ul>
                     </div>
                 </li>
                 
                 <li>
-                    <a href="#">COURSES</a>
+                    <a href="./course.html">COURSES</a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="#">Intelligent Investors Immersive Early Retirement Masterclass</a></li>
-                            <li><a href="#">SaaS Hypergrowth Investing</a></li>
-                            <li><a href="#">China Stocks and Options Course</a></li>
-                            <li><a href="#">8-Figure Trading Blueprint</a></li>
-                            <li><a href="#">Cryptocurrency</a></li>
-                            <li><a href="#">Property Investing Masterclass</a></li>
-                            <li><a href="#">Barbell Investing Course</a></li>
-                            <li><a href="#">All Courses</a></li>
+                            <li><a href="#">E - Course 1</a></li>
+                            <li><a href="#">E - Course 2</a></li>
+                            <li><a href="#">E - Course 3</a></li>
+                            <li><a href="#">E - Course 4</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="./webinar.html">Flagship Programmes & Webinars</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Webinar 1</a></li>
+                            <li><a href="#">Webinar 2</a></li>
+                            <li><a href="#">Webinar 3</a></li>
+                            <li><a href="#">Webinar 4</a></li>
                         </ul>
                     </div>
                 </li>
@@ -56,15 +64,58 @@
                 </li>
             </ul>
 
-            <a href="" class="uk-hidden@m">
-                <i uk-icon="icon: menu"></i>
+            <a href="#offcanvas-usage" class="uk-hidden@m navbar-mobile" uk-toggle>
+                <i uk-icon="icon: menu; ratio: 1.5"></i>
             </a>
+
+            <div id="offcanvas-usage" uk-offcanvas="overlay: true; flip: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <img class="uk-padding" src="./img/Pride logos/Pride logo/Copy of Pride_Logo_transparent-white.png" alt="">
+                    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                        <li class="uk-nav-header">Main Menu</li>
+                        <li class="uk-parent">
+                            <a href="#">Blog</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Interviews</a></li>
+                            </ul>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="#">Courses</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">E - Course 1</a></li>
+                                <li><a href="#">E - Course 2</a></li>
+                                <li><a href="#">E - Course 3</a></li>
+                                <li><a href="#">E - Course 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="">Flagship Programmes & Webinars</a>
+                            <ul>
+                                <li><a href="">Webinar 1</a></li>
+                                <li><a href="">Webinar 2</a></li>
+                                <li><a href="">Webinar 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="#">About</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Ask IWC Facebook</a></li>
+                                <li><a href="#">Interviews</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
     </nav>
 
     <div class="uk-card uk-card-default uk-box-shadow-small">
-        <div class="uk-padding-small uk-flex uk-flex-center">
-            <ul class="uk-flex" style="list-style-type: none; margin: 0">
+        <div class="uk-padding-small uk-flex uk-flex-center uk-visible@m">
+            <ul class="uk-flex nav-bottom" style="list-style-type: none; margin: 0">
                 <li class="uk-margin-large-right">
                     <a style="text-decoration: none;" class="uk-text-bold">Strategies <i uk-icon="icon: chevron-down"></i></a>
                     <div uk-dropdown="mode: click">
@@ -85,12 +136,30 @@
                     <a style="text-decoration: none;" class="uk-text-bold">Opinions <i uk-icon="icon: chevron-down"></i></a>
                 </li>
             </ul>
+
+        </div>
+        <div class="uk-padding-small uk-hidden@m">
+            <ul class="uk-nav-default uk-nav-center" uk-nav>
+                <li class="uk-parent">
+                    <a href="#" class="uk-text-bold">MENU</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li>
+                            <a href="#">Sub item</a>
+                            <ul>
+                                <li><a href="#">Sub item</a></li>
+                                <li><a href="#">Sub item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="custom-container uk-margin-large uk-margin-remove-horizontal">
+    <div class="custom-container uk-margin-large-top uk-margin-large-bottom">
         <div uk-grid="masonry: true">
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m uk-margin-large-bottom">
                 <article class="uk-article">
 
                     <h1 class="uk-article-title"><a class="uk-link-reset" href="">This is your news title</a></h1>
@@ -112,7 +181,7 @@
                 
                 </article>
             </div>
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m uk-margin-large-bottom">
                 <article class="uk-article">
 
                     <h1 class="uk-article-title"><a class="uk-link-reset" href="">This Article is an Example for displaying website layout</a></h1>
@@ -134,7 +203,7 @@
                 
                 </article>
             </div>
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m uk-margin-large-bottom">
                 <article class="uk-article">
 
                     <h1 class="uk-article-title"><a class="uk-link-reset" href="">This is your news title</a></h1>
@@ -156,7 +225,7 @@
                 
                 </article>
             </div>
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m uk-margin-large-bottom">
                 <article class="uk-article">
 
                     <h1 class="uk-article-title"><a class="uk-link-reset" href="">This is your news title</a></h1>
@@ -179,20 +248,24 @@
                 </article>
             </div>
         </div>
+
+    </div>
+    <br><br>
+    <div class="uk-margin-large-bottom uk-margin-large-top uk-container">
+        <aside>
+            <ul class="uk-pagination uk-flex-center uk-text-large" uk-margin>
+                <li><a href="#"><span uk-pagination-previous></span></a></li>
+                <li><a href="#">1</a></li>
+                <li class="uk-disabled"><span>...</span></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li class="uk-active"><span>7</span></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#"><span uk-pagination-next></span></a></li>
+            </ul>
+        </aside>
     </div>
 
-    <div>
-        <ul class="uk-pagination uk-flex-center uk-text-large" uk-margin>
-            <li><a href="#"><span uk-pagination-previous></span></a></li>
-            <li><a href="#">1</a></li>
-            <li class="uk-disabled"><span>...</span></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">6</a></li>
-            <li class="uk-active"><span>7</span></li>
-            <li><a href="#">8</a></li>
-            <li><a href="#"><span uk-pagination-next></span></a></li>
-        </ul>
-    </div>
 
     <div id="footer">
 		<div class="uk-container">
